@@ -1,0 +1,16 @@
+ - text: "ΑΡΧΙΚΗ"
+   url: "/"
+
+ - text: "ΓΙΑ ΕΜΑΣ"
+   url: "#about-us"
+
+
+ - text: "ΥΠΗΡΕΣΙΕΣ"
+   url: "#services"
+
+
+ - text: "ΕΠΙΚΟΙΝΩΝΙΑ"
+   url: "#contact"
+
+ - text: 🇬🇧
+   url: "/index.html"

@@ -1,0 +1,16 @@
+ - text: Home
+   url: "/"
+
+ - text: About
+   url: "#about-us"
+
+
+ - text: Services
+   url: "#services"
+
+
+ - text: "Contact"
+   url: "#contact"
+
+ - text: 🇬🇷
+   url: "/index_el.html"
