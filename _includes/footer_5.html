@@ -4,7 +4,7 @@
     <div class="widgets-section">
         <div class="row clearfix">
             <!--Column-->
-            <div class="column col-lg-4 col-md-6 col-sm-12">
+            <div class="column col-lg-6 col-md-6 col-sm-12">
                 <div class="footer-widget links-widget">
                     <h3>Pages<span>.</span></h3>
                     <div class="widget-content">
@@ -12,19 +12,13 @@
                             <div class="col-lg-5 col-md-6 col-sm-12">
                                 <ul>
                                     <li><a href="{{site.url}}">Home</a></li>
-                                    <li><a href="/abour">About</a></li>
-                                    <li><a href="/services">Services</a></li>
-                                    <li><a href="/portfolio">Portfolio</a></li>
-                                    <li><a href="/contact">Contact</a></li>
-                                    <li><a href="/blog">Blog</a></li>
+                                    <li><a href="#about-us">About</a></li>
                                 </ul>
                             </div>
                             <div class="col-lg-7 col-md-6 col-sm-12">
                                 <ul>
-                                    <li><a href="/service-2">Features</a></li>
-                                    <li><a href="/blog-2">Our Story</a></li>
-                                    <li><a href="/team">Our Team</a></li>
-                                    <li><a href="/portfolio-2">Projects</a></li>
+                                    <li><a href="#services">Services</a></li>
+                                    <li><a href="#contact">Contact</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -32,27 +26,7 @@
                 </div>
             </div>
             <!--Column-->
-            <div class="column col-lg-4 col-md-6 col-sm-12">
-                <div class="footer-widget news-widget">
-                    <h3>News feeds<span>.</span></h3>
-                    <div class="widget-content">
-                        {% for post in site.posts limit: 3 %}
-                        <div class="news-post">
-                            {% if post.post_image %}
-                            <div class="post-thumb">
-                                <a href="{{post.url}}">
-                                    <img src="{{post.post_image}}" alt="{{post.title}}"/>
-                                </a>
-                            </div>
-                            {% endif %}
-                            <h5><a href="{{post.url}}">{{post.title | truncatewords: 5}}</a></h5>
-                        </div>
-                        {% endfor %}
-                    </div>
-                </div>
-            </div>
-            <!--Column-->
-            <div class="column col-lg-4 col-md-6 col-sm-12">
+            <div class="column col-lg-6 col-md-6 col-sm-12">
                 <div class="footer-widget newsletter-widget">
                     <h3>Newsletter<span>.</span></h3>
                     <div class="widget-content">
